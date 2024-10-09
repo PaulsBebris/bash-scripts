@@ -3,7 +3,7 @@
 CONF_SUFIX=.conf
 
 if [[ $# -ne 4 ]]; then
-    printf "%s\n" "you must supply arguments in exact order: houst, port, nix-user, ip-address"
+    printf "%s\n" "you must supply arguments in exact order: host, port, nix-user, ip-address"
     exit 1
 fi    
 printf "%s\n" "Create vhost directories in /var/www/"
