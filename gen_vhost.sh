@@ -1,6 +1,9 @@
 #!/bin/bash
 // TODO put all in if`s
-
+if [$#<4]; then
+    printf "%s\n" Arguments must be: domain, port, nix-user, ip-address
+    exit 1
+fi
 
 // script arguments are in order: domain, port, local-user, ip-address
 
